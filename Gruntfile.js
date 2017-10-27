@@ -49,7 +49,6 @@
     ]);
 
     grunt.registerTask('prod', [
-      'lint',
 	  'copy:non-minified',
       'cssmin',
       'uglify'

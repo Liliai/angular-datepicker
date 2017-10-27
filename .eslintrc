@@ -22,7 +22,7 @@
     "no-plusplus": 2,
     "no-bitwise": 2,
     "block-scoped-var": 2,
-    "consistent-return": 1,
+    "consistent-return": 0,
     "curly": [
       2,
       "all"

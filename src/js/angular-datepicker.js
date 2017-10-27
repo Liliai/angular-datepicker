@@ -17,6 +17,8 @@
 
         return true;
       }
+
+      return false;
     }())
     , generateMonthAndYearHeader = function generateMonthAndYearHeader(prevButton, nextButton, preventMobile) {
 
@@ -354,7 +356,8 @@
 
               return false;
             }
-          }, setInputValueCustom = function setInputValueCustom() {
+          }, 
+          setInputValueCustom = function setInputValueCustom() {
 
             if ($scope.isSelectableMinDate($scope.year + '/' + $scope.monthNumber + '/' + $scope.day) &&
                 $scope.isSelectableMaxDate($scope.year + '/' + $scope.monthNumber + '/' + $scope.day)) {
